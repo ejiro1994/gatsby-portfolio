@@ -13,7 +13,9 @@ function HeroSection() {
               alt="logo"
             />
 
-            <Title>I create thoughtful musical experiences for brands </Title>
+            <Title>
+              I create <span>thoughtful</span> musical experiences for brands{" "}
+            </Title>
             <GetInTouch
               href="https://www.instagram.com/lifeon_ej/"
               target="_blank"
@@ -49,7 +51,13 @@ gap: 30px
 `
 
 const Title = styled(H1)`
-    color: ${themes.light.text1};
+  color: ${themes.light.text1};
+  font-size: 30px;
+  line-height: 130%;
+
+  span {
+    color: #a18966;
+  }
 `
 
 const Description = styled(MediumText)`
