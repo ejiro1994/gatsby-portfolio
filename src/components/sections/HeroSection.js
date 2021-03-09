@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { themes } from '../styles/ColorStyles'
 import {H1, MediumText} from '../styles/TextStyles'
+import SoundCloud from './SoundCloud'
 
 function HeroSection() {
     return (
@@ -14,15 +15,19 @@ function HeroSection() {
             />
 
             <Title>
-              I create <span>thoughtful</span> musical experiences for brands{" "}
+              I create <span>thoughtful</span> musical experiences for brands
             </Title>
             <GetInTouch
-              href="https://www.instagram.com/lifeon_ej/"
+              href="mailto:hello@ejirolennox.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Get in touch
             </GetInTouch>
+
+
+            <Description>💫 Selected work</Description>
+            <SoundCloud />
           </TextWrapper>
         </ContentWrapper>
       </Wrapper>
@@ -61,8 +66,6 @@ const Title = styled(H1)`
 `
 
 const Description = styled(MediumText)`
-/* border-bottom: 1px solid #131313; */
-text-decoration: underline;
 `
 
 const GetInTouch = styled.a`
