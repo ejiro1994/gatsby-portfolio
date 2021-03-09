@@ -15,7 +15,7 @@ function HeroSection() {
             />
 
             <Title>
-              I create <span>thoughtful</span> musical experiences for brands
+              I create <span>thoughtful</span> musical experiences for your next project
             </Title>
             <GetInTouch
               href="mailto:hello@ejirolennox.com"
