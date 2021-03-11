@@ -7,24 +7,23 @@ import SoundCloud from './SoundCloud'
 function HeroSection() {
     return (
       <Wrapper>
+        <ProfilePic
+          src="https://scontent-man2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/72652218_2459269224163979_4498830687733563289_n.jpg?tp=1&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=GLtfodC7GZUAX_cTd53&oh=ad00e945a6face374957c96035900cad&oe=606FBF42"
+          alt="logo"
+        />
         <ContentWrapper>
           <TextWrapper>
-            <ProfilePic
-              src="https://scontent-man2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/72652218_2459269224163979_4498830687733563289_n.jpg?tp=1&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=GLtfodC7GZUAX_cTd53&oh=ad00e945a6face374957c96035900cad&oe=606FBF42"
-              alt="logo"
-            />
-
             <Title>
-              I create <span>thoughtful</span> musical experiences for your next project
+              I create <span>thoughtful</span> musical experiences for your next
+              project
             </Title>
             <GetInTouch
-              href="mailto:hello@ejirolennox.com"
+              href="mailto:contact@ejirolennox.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Get in touch
+              Get in touch 
             </GetInTouch>
-
 
             <Description>💫 Selected work</Description>
             <SoundCloud />
@@ -69,13 +68,20 @@ const Description = styled(MediumText)`
 `
 
 const GetInTouch = styled.a`
-color: #131313;
-text-decoration: underline;
-`
+  color: #131313;
+  /* text-decoration: underline; */
+  padding: 25px;
+  background-color: #a18966;
+  display: inline-block;
+  /* border-radius: 100px; */
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  `
 
 
 
 const ProfilePic = styled.img`
-width: 150px;
-  clip: rect(10px, 20px, 30px, 40px);
+  width: 100%;
+
 `
