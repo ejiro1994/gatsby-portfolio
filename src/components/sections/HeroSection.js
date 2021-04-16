@@ -3,12 +3,13 @@ import styled from 'styled-components'
 import { themes } from '../styles/ColorStyles'
 import {H1, MediumText} from '../styles/TextStyles'
 import SoundCloud from './SoundCloud'
+import ejiro from '../../images/ejiro.jpg'
 
 function HeroSection() {
     return (
       <Wrapper>
         <ProfilePic
-          src="https://scontent-man2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/72652218_2459269224163979_4498830687733563289_n.jpg?tp=1&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=GLtfodC7GZUAX_cTd53&oh=ad00e945a6face374957c96035900cad&oe=606FBF42"
+          src={ejiro}
           alt="logo"
         />
         <ContentWrapper>
